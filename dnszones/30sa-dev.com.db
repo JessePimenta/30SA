@@ -1,0 +1,40 @@
+; cPanel first:11.52.3.1 (update_time):1456359670 Cpanel::ZoneFile::VERSION:1.3 hostname:ecbiz185.inmotionhosting.com latest:11.52.3.1
+; Zone file for 30sa-dev.com
+$TTL 14400
+30sa-dev.com.	86400	IN	SOA	ns.inmotionhosting.com.	machinemessages.forum.inmotionhosting.com.	(
+						2016022501 ;Serial Number
+						86400 ;refresh
+						7200 ;retry
+						3600000 ;expire
+						86400	)
+
+30sa-dev.com.	86400	IN	NS	ns.inmotionhosting.com.
+30sa-dev.com.	86400	IN	NS	ns2.inmotionhosting.com.
+
+
+30sa-dev.com.	14400	IN	A	198.46.81.204
+
+30sa-dev.com.	14400	IN	MX	0	30sa-dev.com.
+
+mail	14400	IN	CNAME	30sa-dev.com.
+www	14400	IN	CNAME	30sa-dev.com.
+ftp	14400	IN	CNAME	30sa-dev.com.
+cpanel	14400	IN	A	198.46.81.204
+webdisk	14400	IN	A	198.46.81.204
+cpcalendars	14400	IN	A	198.46.81.204
+cpcontacts	14400	IN	A	198.46.81.204
+whm	14400	IN	A	198.46.81.204
+webmail	14400	IN	A	198.46.81.204
+autoconfig	14400	IN	A	198.46.81.204
+autodiscover	14400	IN	A	198.46.81.204
+_autodiscover._tcp	14400	IN	SRV	0	0	443	cpanelemaildiscovery.cpanel.net.
+_caldav._tcp	14400	IN	SRV	0	0	2079	ecbiz185.inmotionhosting.com.
+_caldavs._tcp	14400	IN	SRV	0	0	2080	ecbiz185.inmotionhosting.com.
+_carddav._tcp	14400	IN	SRV	0	0	2079	ecbiz185.inmotionhosting.com.
+_carddavs._tcp	14400	IN	SRV	0	0	2080	ecbiz185.inmotionhosting.com.
+_caldav._tcp	14400	IN	TXT	path=/
+_caldavs._tcp	14400	IN	TXT	path=/
+_carddav._tcp	14400	IN	TXT	path=/
+_carddavs._tcp	14400	IN	TXT	path=/
+default._domainkey	14400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArWBP9biGslpT55Hoz7oRgFEsdzYmvNIxWOv4sbtA68uYIgC+NJeuLxu4am7sYH/t8x4qTxUFVETM1hHxKi6dtm0YHdMzI+IHdXzoRkTNIoPYUHY4rpNqYDPdntB/4qwfqLW6pn8x9DqI//GQYS0rhvw0Wo6LkBijjg5Zo5DZiDyrmYDSzZdoqNsX5ID04mmHu" g3rv3Rt10MJWRRWtR5TAz5a6E2B2deTQYBxXLnJdtkqUAe470JyfFPsvpdGZpDxCw6sS7vEdaYABIalV8yZ9iyex4AjmSjhmEkqKDbvHA/Oc+lZY4rS7qtnaWtIbPwwCraLPFYtIxWXc1RYXleG4QIDAQAB\;
+tracking	14400	IN	CNAME	api.elasticemail.com.

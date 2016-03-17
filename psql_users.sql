@@ -1,0 +1,1 @@
+CREATE USER "n0sade5" WITH PASSWORD E'md534a2deadc7c8ecea35213bcfe51122b4';

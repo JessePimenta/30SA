@@ -1,0 +1,792 @@
+AWSTATS DATA FILE 7.4 (build 20140726)
+# If you remove this file, all statistics for date 201602 will be lost/reset.
+# Last config file used to build this data file was /home/n0sade5/tmp/awstats/awstats.30sa-dev.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2008                
+POS_TIME 2692                
+POS_VISITOR 13249               
+POS_DAY 18216               
+POS_DOMAIN 3594                
+POS_LOGIN 4250                
+POS_ROBOT 4405                
+POS_WORMS 4831                
+POS_EMAILSENDER 4962                
+POS_EMAILRECEIVER 5105                
+POS_SESSION 18915               
+POS_SIDER 19124               
+POS_FILETYPES 5240                
+POS_DOWNLOADS 5527                
+POS_OS 5575                
+POS_BROWSER 5865                
+POS_SCREENSIZE 6768                
+POS_UNKNOWNREFERER 6842                
+POS_UNKNOWNREFERERBROWSER 7112                
+POS_ORIGIN 7404                
+POS_SEREFERRALS 7547                
+POS_PAGEREFS 7691                
+POS_SEARCHWORDS 7947                
+POS_KEYWORDS 8099                
+POS_MISC 2354                
+POS_ERRORS 8158                
+POS_CLUSTER 4106                
+POS_SIDER_404 8305                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20160224192953 265 65249 17276707000332
+FirstTime 20160201011839
+LastTime 20160224192317
+LastUpdate 20160224194116 265 0 265 0 0
+TotalVisits 176                 
+TotalUnique 117                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 117                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 340 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 107 408 3016312 24 60 1051139
+1 158 652 3765632 66 86 2114886
+2 395 1035 8371859 61 94 2607858
+3 234 839 3809402 53 85 2116259
+4 272 1087 14997010 14 43 441341
+5 237 449 10976172 37 61 1499129
+6 71 271 4051634 3 27 522411
+7 201 726 12097442 21 39 330500
+8 14 70 2048540 22 39 1012010
+9 289 1477 9243515 40 97 1732245
+10 218 1028 12595017 13 42 531218
+11 149 618 2521209 20 52 842239
+12 160 608 7990785 61 88 1901147
+13 211 636 6338475 15 41 471482
+14 26 133 4006484 12 37 997747
+15 208 570 11091319 15 46 1043291
+16 225 658 9135346 36 55 699927
+17 775 2223 20245628 60 130 1317676
+18 216 564 3860522 33 49 281685
+19 126 452 8215679 21 62 1127549
+20 126 742 6420567 28 76 1173105
+21 435 1051 9862353 33 83 1094494
+22 319 779 5384626 17 54 819347
+23 6 38 44039 13 44 1129418
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 28
+us 2357 6468 65839312
+mx 1388 5607 25101652
+zz 1026 2610 18599417
+br 208 1426 41710644
+it 57 358 10186543
+es 35 148 4054766
+fr 22 59 1821506
+pt 16 105 3029323
+ao 7 44 1258951
+gr 7 44 1255664
+dk 7 44 1259932
+ec 7 44 1264989
+ee 7 43 1072573
+pk 7 44 1258053
+ua 6 6 217838
+co 4 37 1168408
+ca 3 3 111873
+cn 2 2 75009
+ro 2 2 74412
+vn 2 2 74273
+do 1 11 393252
+ru 1 1 37495
+lv 1 1 37257
+au 1 1 37281
+dz 1 1 37132
+pl 1 1 37505
+de 1 1 37254
+sk 1 1 37253
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 8
+googlebot 359 9406869 20160223135044 14
+bot[\s_+:,\.\;\/\\-] 324 9676664 20160223132902 50
+spider 56 1905458 20160223175951 0
+no_user_agent 54 22194 20160222193359 0
+unknown 11 814 20160221174526 11
+msnbot 7 518 20160223171533 7
+netcraft 2 54811 20160207124946 0
+crawl 1 37084 20160216045603 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 11
+css 4479 38054118 0 0
+png 555 1601854 0 0
+woff 13 558484 0 0
+woff2 488 2049676 0 0
+map 10 1400360 0 0
+html 1598 40534847 0 0
+jpg 252 2403594 0 0
+xml 1 6216 0 0
+js 6647 72624713 0 0
+Unknown 3068 20853011 0 0
+gif 3 2694 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 16
+linuxandroid 389 166
+blackberry 1 1
+macosx6 1 1
+winxp 2 2
+ios_iphone 404 118
+win2000 1 1
+winunknown 3 3
+unix 25 4
+java 1 1
+winnt 48 11
+linux 154 43
+win7 2496 393
+macosx 13361 4255
+bsdfreebsd 1 1
+Unknown 205 159
+win8.1 22 19
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 42
+msie6.0 1 1
+firefox28.0 3 3
+chrome12.0.702.0 1 1
+android 3 2
+chrome48.0.2564.116 213 41
+chrome38.0.2125.101 42 7
+chrome31.0.1650.57 1 1
+firefox34.0 1 1
+chrome12.0.742.68 1 1
+firefox31.0 1 1
+chrome46.0.2490.76 1 0
+chrome12.0.742.113 1 1
+chrome47.0.2526.111 507 76
+firefox43.0 1694 366
+chrome37.0.2062.120 1 1
+firefox41.0 3 3
+chrome41.0.2272.89 13 13
+Unknown 209 163
+blackberry 1 1
+safari9.0.3 200 82
+chilkat 1 1
+chrome48.0.2564.82 69 29
+safari6.0 42 6
+chrome41.0.2272.118 2 2
+firefox38.0 25 4
+msie5.5 2 2
+chrome32.0.1700.107 176 28
+chrome38.0.2125.102 385 164
+firefox3.0.5 1 1
+chrome36.0.1985.143 1704 254
+safari9.0 318 105
+chrome45.0.2454.101 1 1
+mozilla 1 1
+chrome48.0.2564.109 11047 3684
+chrome35.0.1916.153 88 14
+firefox14.0.1 1 1
+chrome17.0.963.65 1 1
+chrome48.0.2564.103 215 88
+firefox36.0 1 1
+safari 44 7
+firefox35.0 1 1
+chrome48.0.2564.97 92 18
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 4
+python-requests/2.9.1 20160223011926
+Chilkat/1.0.0_(_http://www.chilkatsoft.com/ChilkatHttpUA.asp) 20160203064959
+panscient.com 20160202051541
+Mozilla/5.0_Firefox/35.0 20160216155138
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 4
+python-requests/2.9.1 20160223011926
+Apache-HttpClient/4.3.5_(java_1.5) 20160207161216
+panscient.com 20160202051541
+python-requests/2.7.0_CPython/2.7.9_Linux/2.6.32-604.30.3.lve1.3.63.el6.x86_64 20160209011904
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 332 494
+From1 2 2
+From2 0 0
+From3 66 66
+From4 4778 16552
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 3
+http://top1-seo-service.com/try.php 43 43
+http://buttons-for-website.com 22 22
+http://pizza-imperia.com 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 6
+403 3 684
+501 1 74168
+302 99 0
+500 11 108988
+406 2 600
+404 198 5470351
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 106
+/sitemap.xml 1 -
+/wanted-ads/mikes-auto-2.html 2 http://30sa-dev.com/all
+/auto-parts-2/toyota-celica-1998-engine.html 1 -
+/wanted-ads/test-ad-1.html 1 http://30sa-dev.com/ad/thanks/104
+/wanted-ads/big-al-s-auto.html 2 -
+/themes/default/js/ 5 -
+/publish-new.html 4 -
+/wanted-ads/michael-laird-lamborghini.html 4 http://30sa-dev.com/oc-panel/myads
+/wanted-ads/japanese-cars-body-shop.html 3 -
+/wanted-ads/hsjdhsjkh.html 2 -
+/wanted-ads/corolla.html 2 -
+/reviews/chevy-truck-1956.html 2 -
+/wanted-ads/this-is-not-the-same.html 1 -
+/wanted-ads/mikes-auto-4.html 1 http://30sa-dev.com/wanted-ads
+/auto-parts-selling/all-parts-good-interior-ok-back-seat-upholstery-stained.html 1 -
+/wanted-ads/my-new-car.html 2 http://30sa-dev.com/wanted-ads
+/themes/kamaleon/js/%7Bpath%7D 1 -
+/themes/kamaleon/js/list/grid 1 -
+/wanted-ads/mikes-auto-body.html 1 http://30sa-dev.com/ad/thanks/101
+/wanted-ads/testing-with-new-ad-layout-and-no-img.html 3 -
+/auto-parts-selling/aston-martin-db9-engine.html 1 -
+/xmlrpc.php 1 -
+/reviews/i-need-many-parts-for-my-dodge-charger.html 2 -
+/wanted-ads/jesse.html 2 -
+/wanted-ads/test-ad.html 3 -
+/reviews/1969-shelby-mustang.html 2 -
+/auto-parts-selling/unique-parts-here.html 1 -
+/themes/kamaleon/js/text/xml 1 -
+/wanted-ads/can-t-use-these.html 3 http://30sa-dev.com/oc-panel/myads/update/98
+/reviews/toyota-tires.html 2 -
+/wanted-ads/s10-front-bumper.html 2 -
+/themes/kamaleon/js/mm/dd/yyyy 1 -
+/auto-parts-2/audi.html 1 -
+/wanted-ads/need-parts-for-multiple-honda-models.html 1 -
+/auto-parts-2/audi-r8.html 1 -
+/wanted-ads/mikes-auto-6.html 1 http://30sa-dev.com/ad/thanks/118
+/apple-touch-icon-120x120.png 1 -
+/wanted-ads/temp-title.html 1 -
+/auto-parts-2/transmission-for-2002-volvo-s80-1.html 1 -
+/themes/default/js/text/plain 1 -
+/wanted-ads/jesse-s-auto-body.html 8 http://30sa-dev.com/all
+/,50*(1-a/b)+ 1 -
+/wanted-ads/sdfghgjh.html 2 -
+/themes/default/css/bg.jpg 1 http://30sa-dev.com/themes/default/css/map-generator.css
+/auto-parts-selling/toyota-rav-4-1998.html 1 -
+/).length,t.style=/top/.test(r.getAttribute( 1 -
+/wanted-ads/mikes-auto.html 2 http://30sa-dev.com/all
+/wanted-ads/ford-focus-parts.html 1 -
+/auto-parts-selling/1988-nissan-skyline-engine.html 1 -
+/wanted-ads/title-1.html 2 -
+/wanted-ads/tilrofr.html 1 -
+/apple-touch-icon-120x120-precomposed.png 1 -
+/themes/default/js/text/html 1 -
+/wanted-ads/mike-s-auto-1.html 1 http://30sa-dev.com/oc-panel/myads
+/wp-login.php 2 -
+/wanted-ads/mikes-auto-3.html 2 -
+/holder.js 2 -
+/reviews/2000-cadillac-escalade.html 2 -
+/wanted-ads/jesse-s-auto.html 1 http://30sa-dev.com/ad/thanks/90
+/wanted-ads/test.html 2 -
+/26/asdfghj.html 1 http://30sa-dev.com/map.html
+/apple-touch-icon.png 2 -
+/wanted-ads/title.html 1 http://30sa-dev.com/ad/thanks/82
+/wanted-ads/jesse-s-auto-body-2.html 1 http://30sa-dev.com/ad/thanks/91
+/themes/kamaleon/js/ 7 -
+/reviews/1968-ford-mustang-gt.html 2 -
+/themes/kamaleon/css/ 1 http://30sa-dev.com/themes/kamaleon/css/paper-bootstrap.min.css
+/auto-parts-selling/toyota-prius.html 1 -
+/g,mt=RegExp( 1 -
+/wanted-ads/wanted-test.html 2 http://30sa-dev.com/all
+/reviews/1974-ford-mustang.html 2 -
+/wanted-ads/big-jimmy-s.html 2 -
+/auto-parts-selling/nissan-skyline-87-2000gts-r.html 1 -
+/auto-parts-2/transmission-1991-dodge-3-4-to-with-cummins-disel.html 1 -
+/wanted-ads/testing-218.html 1 http://30sa-dev.com/wanted-ads
+/auto-parts-selling/test.html 1 -
+/wanted-ads/jesse-s-auto-body-1.html 2 http://30sa-dev.com/all
+/auto-parts-selling/part-out-discrete-seller.html 1 -
+/reviews/used-disc-brake-kit.html 2 -
+/reviews/2024-mercedes-alien-x.html 2 -
+/wanted-ads/timer-test.html 2 -
+/auto-parts-selling/2003-volvo-s80.html 1 -
+/wanted-ads/jesse-s-auto-body-3.html 1 http://30sa-dev.com/ad/thanks/103
+/mm/dd/yyyy 1 -
+/reviews/timer-test.html 11 -
+/MM/DD/YYYY 1 -
+/blog/robots.txt 1 -
+/themes/default/js/text/vbscript 1 -
+/auto-parts-2/rear-bumper-for-2012-audi-r8.html 1 -
+/wanted-ads/test-for-map.html 2 http://30sa-dev.com/ad/thanks/81
+/wanted-ads/mike-s-auto.html 1 http://30sa-dev.com/ad/thanks/99
+/wanted-ads/testing-ad-with-the-user-image.html 3 -
+/wanted-ads/working-ad-with-thumb.html 2 http://30sa-dev.com/oc-panel/myads
+/administrator/index.php 4 -
+/auto-parts-selling/white-ford-bronco.html 1 -
+/wanted-ads/mikes-auto-5.html 2 -
+/wanted-ads/my-title.html 2 -
+/wanted-ads/mike-s-auto-body.html 1 http://30sa-dev.com/ad/thanks/94
+/26/ad-1jhjkk.html 1 http://30sa-dev.com/map.html
+/wanted-ads/ghkhghj.html 1 -
+/wanted-ads/sdffff.html 2 -
+/wanted-ads/test-prettyphoto.html 3 http://30sa-dev.com/all
+/wanted-ads/no-thumb-test.html 2 -
+/sitemap.xml.gz 9 -
+/wanted-ads/hsjkdhskj.html 2 -
+/wanted-ads/ad-1jhjkk.html 2 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 117
+104.173.206.7 2816 7688 45696222 20160224192317 20160224192127 /api/v1/categories/26
+189.207.137.250 1104 4352 18017744 20160219152337
+189.207.148.122 273 1186 5118413 20160203170755
+72.76.243.86 148 194 7943555 20160202051541
+66.87.66.90 90 286 9856138 20160220100224
+208.54.39.244 53 86 624627 20160215221447
+172.56.31.11 38 108 1875800 20160220151816
+172.56.31.62 34 34 344908 20160219224720
+66.214.132.8 29 69 1585564 20160207150234
+91.126.239.209 28 104 2789772 20160216073626
+66.87.64.50 22 73 2783582 20160215214449
+108.61.123.82 22 23 370487 20160219132120
+166.170.5.82 16 19 309053 20160215212601
+37.187.92.25 14 14 524554 20160222164316
+198.46.81.204 14 14 521519 20160223011926
+172.56.40.199 14 96 1336174 20160207123504
+209.136.227.210 10 47 1367442 20160209133628
+172.56.30.180 10 46 1258119 20160215195947
+76.169.163.67 9 46 1349642 20160206152913
+186.220.166.180 7 44 1259943 20160222153908
+191.180.39.66 7 44 1255649 20160211170229
+187.16.56.58 7 42 1067032 20160202135659
+177.200.193.130 7 44 1264991 20160204053456
+82.54.134.196 7 44 1260894 20160216070835
+187.180.177.39 7 44 1264994 20160205152902
+180.150.19.243 1 1 37281 20160206204721
+179.182.235.25 2 18 553521 20160217170155
+81.89.48.128 1 1 37253 20160210052319
+189.110.83.130 7 44 1264983 20160204064417
+27.75.213.42 1 1 37105 20160216045858
+189.35.150.213 7 44 1255654 20160213064951
+216.145.11.94 1 1 6216 20160210135501
+179.180.60.74 3 35 1042224 20160203093207
+189.101.124.10 4 29 1064661 20160221173911
+46.227.5.230 7 44 1265008 20160206073707
+197.148.91.226 7 44 1258951 20160223105949
+41.110.11.157 1 1 37132 20160202061718
+188.13.133.234 7 44 1259079 20160216163723
+189.102.139.46 7 44 1259081 20160216093007
+107.189.60.67 4 25 858171 20160215211741
+95.241.214.201 7 44 1259939 20160222010623
+52.36.9.94 1 1 37245 20160207161216
+191.177.184.109 7 44 1265002 20160207084021
+201.148.126.74 4 25 700501 20160211053313
+207.102.138.158 1 1 37308 20160207173408
+189.69.237.98 7 43 1072567 20160201123920
+89.114.139.7 7 44 1259087 20160216101702
+39.48.61.26 7 44 1258053 20160217040528
+200.216.46.87 4 38 1235703 20160208073537
+136.169.10.10 1 1 37257 20160209073124
+92.50.213.169 1 1 37495 20160217185458
+46.164.162.124 1 1 37144 20160202043941
+179.199.102.25 6 43 1246637 20160223100819
+212.242.148.247 7 44 1259932 20160222125516
+95.236.216.206 7 44 1264999 20160204150307
+52.27.184.141 1 1 74199 20160202133234
+177.38.51.3 4 32 1092109 20160204172051
+192.99.62.7 1 1 37248 20160208210115
+179.180.76.212 7 44 1264996 20160208172618
+109.19.83.14 7 44 1259817 20160220142020
+79.17.192.125 7 43 1072574 20160202105508
+200.141.122.112 7 44 1259162 20160219073309
+152.250.128.245 4 30 1072513 20160216042850
+187.49.14.13 4 31 1027448 20160218143311
+90.191.54.88 7 43 1072573 20160203021139
+109.86.72.162 1 1 37509 20160221010242
+177.38.5.213 6 39 1110941 20160206043336
+200.212.23.50 7 44 1255649 20160211095943
+79.154.12.176 7 44 1264994 20160210090809
+179.213.165.131 7 43 1072569 20160202170821
+91.210.147.72 1 1 47990 20160222160458
+201.10.17.137 4 38 1226362 20160211150457
+191.190.42.214 7 44 1264994 20160207042045
+178.137.87.242 3 3 95195 20160212044828
+181.49.74.25 4 37 1168408 20160211222432
+191.188.163.202 4 37 1209256 20160215074147
+93.42.68.43 7 44 1265000 20160210125220
+166.137.8.23 5 41 1249561 20160207123229
+189.70.21.207 7 44 1255655 20160211183207
+187.74.177.167 4 38 1226356 20160214202101
+93.147.208.36 7 44 1265002 20160208111449
+216.45.50.217 1 1 28991 20160206113853
+172.56.31.210 7 7 53092 20160219225029
+186.46.173.52 7 44 1264989 20160209105257
+83.30.201.45 1 1 37505 20160220091848
+186.212.208.254 7 44 1265004 20160208150236
+166.170.15.26 1 1 37243 20160207182539
+177.75.16.198 4 26 682414 20160201062755
+172.56.31.97 7 7 69359 20160219142318
+198.98.108.54 1 1 37077 20160216155138
+184.23.251.4 7 44 1255290 20160217165544
+89.40.189.69 1 1 37276 20160207035511
+191.249.118.8 7 44 1261363 20160219130525
+109.163.234.2 1 1 37136 20160202022251
+208.91.115.10 7 42 1252347 20160207173411
+85.240.250.170 7 44 1255647 20160213105900
+177.156.51.145 7 43 1072558 20160201170809
+204.101.161.159 1 1 37317 20160208055816
+189.82.113.28 4 29 1013287 20160214163144
+186.204.245.122 4 38 1226349 20160214073446
+88.55.87.83 1 7 274048 20160214063206
+138.201.20.12 1 1 37254 20160209140501
+179.222.147.237 7 44 1261310 20160219190806
+113.22.156.250 1 1 37168 20160203064959
+189.63.38.172 3 22 634019 20160219081511
+218.241.108.79 2 2 75009 20160218045139
+217.128.202.169 1 1 37135 20160201061803
+87.196.225.216 2 17 514589 20160202141909
+77.49.34.76 7 44 1255664 20160211074926
+69.58.178.57 2 2 74501 20160215081314
+186.7.5.160 1 11 393252 20160204132012
+200.102.45.192 1 14 405445 20160217053145
+187.127.163.66 7 44 1255659 20160213203154
+159.203.75.194 1 1 37504 20160219114357
+172.56.31.208 1 1 16 20160219224841
+191.34.182.204 7 44 1260091 20160218094327
+152.249.198.3 7 43 1072572 20160202174210
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 24
+20160201 20 114 2901800 5
+20160202 182 386 12928502 10
+20160203 345 1739 9389557 6
+20160204 35 221 6629981 6
+20160205 8 45 1302245 2
+20160206 24 131 3791863 5
+20160207 84 388 9526862 12
+20160208 29 174 5179784 8
+20160209 88 215 4823169 7
+20160210 16 90 2573463 4
+20160211 41 277 8155141 8
+20160212 3 3 95195 1
+20160213 22 133 3804214 4
+20160214 13 112 3740040 4
+20160215 539 1400 16382168 12
+20160216 860 2266 18627539 14
+20160217 844 1948 14084046 12
+20160218 1281 4960 20927129 11
+20160219 518 1601 10713819 21
+20160220 140 443 13179281 9
+20160221 7 32 1177168 4
+20160222 38 210 6161569 7
+20160223 14 88 2543087 3
+20160224 27 138 1451945 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 11
+5mn-15mn 12
+0s-30s 133
+15mn-30mn 4
+2mn-5mn 3
+30s-2mn 5
+30mn-1h 7
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 199
+/jslocalization/chosen 861 340956 1 5
+/map.html 828 9350161 0 12
+/jslocalization/validate 818 749288 0 22
+/api/v1/locations 336 3556608 2 29
+/ 318 11225868 150 54
+/api/v1/categories 314 332855 0 3
+/themes/kamaleon/fonts/fontawesome-webfont.woff2 239 1199232 0 1
+/themes/kamaleon/fonts/glyphicons-halflings-regular.woff2 233 342532 1 5
+/api/v1/categories/26 163 513543 0 7
+/api/v1/categories/1 158 364348 0 29
+/publish-new.html 80 7449477 1 0
+/wanted-ads 67 3338678 2 0
+/all 51 2754879 0 0
+/jslocalization/bstour 51 171360 0 0
+/wanted-ads/japanese-cars-body-shop.html 46 1352905 1 0
+/wanted-ads/testing-ad-with-the-user-image.html 38 1314762 6 0
+/wanted-ads/jesse-s-auto-body.html 32 1022573 1 0
+/wanted-ads/mike-s-auto-2.html 32 1004700 0 0
+/oc-panel 27 1347451 0 0
+/wanted-ads/mikes-auto-5.html 26 806319 1 0
+/oc-panel/Config/ajax 16 16103 0 0
+/wanted-ads/this-is-not-the-same.html 16 486653 0 0
+/oc-panel/auth/login 15 442252 2 0
+/oc-panel/myads 14 699270 0 0
+/wanted-ads/this-is-not-how-it-should-look.html 14 433353 0 0
+/26/ghkhghj.html 1 36072 0 0
+/oc-panel/tools/cache%3Fforce%3D1 5 46412 0 0
+/wanted-ads/mikes-auto-2.html 1 35630 0 0
+/wordpress/ 1 28985 0 0
+/ad/thanks/82 1 24364 0 0
+/themes/kamaleon/fonts/glyphicons-halflings-regular.woff 7 140544 0 0
+/ad/thanks/80 1 28066 0 0
+/wanted-ads/hsjdhsjkh.html 1 36208 0 0
+/ad/thanks/96 1 24205 0 0
+/rss.xml 1 6216 1 1
+/ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/= 1 74358 0 0
+/ad/thanks/92 1 24125 0 0
+/wanted-ads/mikes-auto-4.html 3 99473 0 0
+/user/mike-laird 1 32141 0 0
+/wanted-ads/title23457.html 1 30842 0 0
+/wanted-ads/my-new-car.html 2 59140 0 0
+/wanted-ads/testing-with-new-ad-layout-and-no-img.html 3 92445 0 0
+/oc-panel/fields/index 1 23001 0 0
+/ad/thanks/86 1 24194 0 0
+/oc-panel/myads/stats/92 1 27705 0 0
+/ad/thanks/120 1 24199 0 0
+/oc-panel/profile/favorites 1 24241 0 0
+/wanted-ads/test-ad.html 1 34983 0 0
+/oc-panel/Category/update/26 3 185160 0 0
+/oc-panel/ad/index 8 256603 0 0
+/map 1 49251 1 0
+/ad/thanks/115 1 24219 0 0
+/wanted-ads/ad-with-image.html 1 31708 0 0
+/wanted-ads/need-parts-for-multiple-honda-models.html 2 75273 0 0
+/ul 1 74167 0 0
+/1/left-tail-light-for-jeep-cherokee-1999.html 1 34996 0 0
+/user/admin 3 99892 0 0
+/ad/thanks/94 1 24200 0 0
+/oc-panel/fields/update/make 1 4742 0 0
+/wanted-ads/sdfghgjh.html 1 36472 0 0
+/text/plain 1 74192 0 0
+/wanted-ads/ford-focus-parts.html 1 35128 0 0
+/ad/thanks/105 1 24116 0 0
+/ol 1 74164 0 0
+/oc-panel/Stats/users 1 46119 0 0
+/administrator/ 2 122189 2 2
+/cpanel 3 26970 0 0
+/ad/thanks/107 1 24202 0 0
+/ad/thanks/106 1 24199 0 0
+/ad/thanks/84 2 55897 0 0
+/oc-panel/widget/index 1 98278 0 0
+/26/asdfghj.html 1 35645 0 0
+/all/new-york 1 35084 0 0
+/ad/thanks/90 1 24196 0 0
+/26/tilrofr.html 1 35275 0 0
+/oc-panel/ad 10 958933 0 0
+/26/hsjkdhskj.html 1 36129 0 0
+/user/mike-2 1 32197 0 0
+/oc-panel/myads/update/79 1 35554 0 0
+/wanted-ads/wanted-test.html 10 419513 0 0
+/ad/thanks/102 1 24198 0 0
+/wanted-ads/perfect1.html 3 92667 0 0
+/ad/thanks/89 1 24197 0 0
+/ad/thanks/99 1 24195 0 0
+/themes/default/js/jquery-1.10.2.min.map 1 140036 0 0
+/themes/default/fonts/glyphicons-halflings-regular.woff2 8 108168 0 0
+/wanted-ads/mikes-auto-7.html 1 34838 0 0
+/wanted-ads/testing-218.html 1 31077 0 0
+/ad/thanks/109 1 24110 0 0
+/oc-panel/category/update/27 4 84436 0 0
+/api/v1/categories/27 5 11483 0 0
+/oc-panel/myads/update/70 2 78318 0 0
+/wanted-ads/jesse-s-auto-body-1.html 2 71267 0 0
+/oc-panel/category/update/26 2 44738 0 0
+/oc-panel/theme/index 6 192349 0 1
+/all/california 2 146765 0 0
+/oc-panel/Role 1 41430 0 0
+/oc-panel/widget/saveplaceholders 1 5 0 0
+/ad/thanks/104 1 24116 0 0
+/oc-panel/Config/update/landing_page 1 40685 0 0
+/26/corolla.html 1 36481 0 0
+/oc-panel/Role/update/7 1 144560 0 0
+/text/vbscript 1 74201 0 0
+/wanted-ads/my-title.html 1 36868 0 0
+/26/wanted-test.html 1 35394 0 0
+/26/ad-1jhjkk.html 1 35775 0 0
+/oc-panel/config 2 44019 0 0
+/wanted-ads/ghkhghj.html 1 35297 0 0
+/oc-panel/settings/form 2 204558 0 0
+/oc-panel/auth/register 2 60377 0 0
+/ad/thanks/110 1 24114 0 0
+/wanted-ads/test-prettyphoto.html 2 65943 0 0
+/ad/thanks/118 1 27912 1 0
+/oc-panel/stats/index 2 66059 0 0
+/wanted-ads/no-thumb-test.html 13 426252 0 0
+/oc-panel/myads/update/98 4 150345 0 0
+/ad/thanks/117 1 24197 0 0
+/themes/kamaleon/js/jquery-1.10.2.min.map 9 1260324 0 0
+/wanted-ads/perfect2.html 2 61797 0 0
+/all/ 7 525913 0 1
+/26/mikes-auto-5.html 4 120083 0 0
+/26/no-thumb-test.html 2 67564 0 0
+/wanted-ads/test-ad-1.html 1 29520 0 0
+/wanted-ads/2000.html 1 35908 0 0
+/oc-panel/Role/bootgrid 2 8482 0 0
+/ad/thanks/100 1 24198 0 0
+/wanted-ads/big-al-s-auto.html 3 87146 1 0
+/26/sdfghgjh.html 1 36821 0 0
+/oc-panel/cmsimages/index 1 672 0 0
+// 5 164079 1 0
+/ad/thanks/81 1 24371 0 0
+/ad/thanks/121 1 27912 0 0
+/wanted-ads/corolla.html 1 36526 0 0
+/oc-panel/Config/bootgrid 2 8038 0 0
+/ad/thanks/97 1 24214 0 0
+/ad/thanks/91 1 24203 0 0
+/ad/thanks/111 1 24200 0 0
+/ad/thanks/85 1 24287 0 0
+/wanted-ads/jesse.html 2 61148 0 0
+/26/hsjdhsjkh.html 1 35402 0 0
+/ad/thanks/93 1 24207 0 0
+/wanted-ads/can-t-use-these.html 1 31631 0 0
+/auto-parts 1 28991 1 1
+/wanted-ads/s10-front-bumper.html 1 35051 0 0
+/text/ 2 150103 0 0
+/search.html 9 360408 0 0
+/themes/kamaleon/fonts/fontawesome-webfont.woff 6 417940 0 0
+/26/need-parts-for-multiple-honda-models.html 2 75328 0 0
+/wanted-ads/temp-title.html 1 35367 0 0
+/oc-panel/Role/ajax 2 358 0 0
+/oc-panel/Category 3 151810 0 0
+/26/my-title.html 1 36535 0 0
+/contact.html 9 248794 0 0
+/wanted-ads/mikes-auto.html 1 34851 0 0
+/wanted-ads/tilrofr.html 1 35415 0 0
+/wanted-ads/title-1.html 4 132258 0 0
+/ad/thanks/108 1 24110 0 0
+/ad/thanks/112 1 24226 0 0
+/a 2 148317 0 0
+/ad/thanks/83 2 55897 0 0
+/ad/thanks/114 1 24209 0 0
+/text/html 1 74184 0 0
+/wanted-ads/mikes-auto-3.html 5 149542 0 0
+/oc-panel/theme/options 6 152474 0 0
+/ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/ 1 74648 0 0
+/26/big-al-s-auto.html 2 67127 0 0
+/ad/thanks/116 1 24197 0 0
+/all/left-tail-light-for-jeep-cherokee-1999.html 1 35002 0 0
+/oc-panel/coupon/index 4 51869 0 1
+/ad/thanks/113 1 24202 0 0
+/themes/default/fonts/fontawesome-webfont.woff2 8 399744 0 0
+/wanted-ads/big-jimmy-s.html 11 316793 0 0
+/wanted-ads/title-test.html 1 27979 0 0
+/wp/ 1 28964 0 1
+/oc-panel/role/index 1 2287 0 0
+/list 1 74166 0 0
+/wanted-ads/asdfghj.html 1 35331 0 0
+/text/xml 1 74183 0 0
+/wanted-ads/testing-again.html 13 409561 0 0
+/oc-panel/settings/general 7 381690 0 0
+/ad/thanks/101 1 24200 0 0
+/26/2000.html 1 35461 0 0
+/ad/thanks/87 1 24197 0 0
+/oc-panel/tools/cache 4 6816 0 0
+/oc-panel/auth/forgot 2 57145 0 0
+/ad/thanks/103 1 24204 0 0
+/26/test-prettyphoto.html 1 35505 0 0
+/26/jesse-s-auto-body.html 2 73537 0 0
+/oc-panel/map 1 101500 0 0
+/oc-panel/category/index 6 68622 0 0
+/ad/thanks/98 1 24199 0 0
+/list/grid 1 74197 0 0
+/wanted-ads/sdffff.html 1 35224 0 0
+/26/mikes-auto-2.html 1 36076 0 0
+/ad/thanks/119 1 24194 0 0
+/oc-panel/profile/subscriptions 1 29284 0 0
+/wanted-ads/hsjkdhskj.html 1 35843 0 0
+/wanted-ads/ad-1jhjkk.html 1 35870 0 0
+/ad/thanks/88 1 24195 0 0
+END_SIDER

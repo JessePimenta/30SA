@@ -1,0 +1,15 @@
+robots.txt
+oc/config/auth.php
+oc/config/database.php
+.htaccess
+sitemap.xml.gz
+sitemap.xml
+install/install.lock
+oc/cache/*
+oc/logs/*
+images/*
+themes/*
+!themes/default/
+oc/vendor/hybridauth/logs.txt
+oc/codecept.phar
+oc/tests/_output/*
